@@ -20,21 +20,21 @@
 
     .container {
       max-width: 420px;
-      margin: 0 auto;
+      margin: 40px auto;
       background-color: rgba(0, 0, 0, 0.15);
       padding: 24px;
-      border-radius: 12px;
+      border-radius: 14px;
       text-align: center;
     }
 
     h1 {
       font-size: 20px;
-      margin-bottom: 16px;
+      margin-bottom: 8px;
     }
 
     .codigo {
-      font-size: 16px;
-      opacity: 0.9;
+      font-size: 15px;
+      opacity: 0.85;
       margin-bottom: 24px;
     }
 
@@ -46,22 +46,24 @@
     }
 
     .estado-texto {
-      font-size: 22px;
+      font-size: 26px;
       font-weight: bold;
-      margin-bottom: 24px;
+      margin-bottom: 12px;
+      letter-spacing: 1px;
     }
 
-    .descripcion {
+    .info {
       font-size: 14px;
+      opacity: 0.75;
+      margin-top: 28px;
       line-height: 1.5;
-      opacity: 0.9;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <h1>Registro de pago</h1>
+    <h1>Resumen de pago</h1>
 
     <div class="codigo">
       Tarjeta estudiantil 001
@@ -75,9 +77,10 @@
       PAGADO
     </div>
 
-    <p class="descripcion">
-      Este comprobante indica el estado actual de la tarjeta estudiantil.
-      Si tenés dudas o necesitás regularizar tu situación, comunicate con la administración.
+    <!-- INFO -->
+    <p class="info">
+      Estado correspondiente al mes actual<br>
+      Ante dudas, comunicate con administración
     </p>
   </div>
 
